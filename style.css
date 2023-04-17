@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+
+.container {
+    position: relative;
+}
+
+/* tamanho da imagem: 1350x640 */
+.headerimg {
+    display: flex;
+    height: 640px;
+    width: 1350px;
+}
+
+#texto {
+    position: absolute;
+    font-weight: bold;
+    margin-left: 5%;
+    top: 165px;
+}
+
+.paragrafo {
+    color: white;
+}
+
+/* tamanho do botao: 522x63*/
+.saibamais {
+    background-color: #A08050;
+    color: white;
+    border-style: outset;
+    border-color: #A08050;
+    height: 50px;
+    width: 380px;
+    text-shadow: none;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.info {
+    position: absolute;
+    top: 96%;
+    left: 40%;
+    color: rgb(253, 253, 253);
+}
+
+.principal{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* tamanho imagem 2: 632 x 300 */
+.img2 {
+    height: 350px;
+    width: 632px;
+}
+
+/* tamanho logo: 200 x 100 */
+.logo {
+    height: 150px;
+    width: 220px;
+}
+
+.secundaria {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feedback {
+    margin-top: 2%;
+}
+
+.terciaria {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#perguntas {
+    margin-top: 2%;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+}
+
+/*tamanho da imagem do footer: 1350x460 */
+#img3 {
+    position: absolute;
+}

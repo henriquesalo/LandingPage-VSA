@@ -5,24 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="##" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <title>VSA</title>
 </head>
 <body>
     <header>
-        <img class= "headerimg" src="images/img1.jpeg" alt="headerimg">
-        <div>
-            <h1 class="titulo">Bem-vindo à 
-            VSA Corretora</h1>
-            <p class="paragrafo">Nós somos uma corretora de seguros comprometida em 
-            oferecer aos nossos clientes a melhor proteção possível 
-            para seus bens.</p>
-            <button class="saibamais">SAIBA MAIS</button>
+        <div class="container">
+            <img class= "headerimg" src="images/img1.jpeg" alt="headerimg">
+            
+            <label id="texto">
+                <h1 class="titulo">Bem-vindo à 
+                VSA Corretora</h1>
+                <p class="paragrafo">Nós somos uma corretora de seguros comprometida em<br> 
+                oferecer aos nossos clientes a melhor proteção possível<br>
+                para seus bens.</p>
+                <button class="saibamais">SAIBA MAIS</button>
+            </label>
             <h4 class="info">O QUE A VSA OFERECE DE ESPECIAL?</h4>
         </div>
     </header>
+
     <main>
-        <section>
+        <section class="principal">
             <p>Oferecemos um serviço de qualidade superior com um grande diferencial: cobrimos 100% do 
                 valor da tabela Fipe em caso de perda total do veículo. Isso significa que você pode ter a 
                 tranquilidade de saber que está protegido em caso de sinistro.</p>
@@ -60,27 +64,28 @@
                 </article>
             </div>
 
-            <img src="images/carro.jpeg" alt="imgcar">
+            <img class="img2" src="images/carro.jpeg" alt="imgcar">
             <h5>Não arrisque a segurança do seu veículo. Entre em contato conosco hoje mesmo para 
                 proteger seu investimento com a VSA Corretora.</h5>
-            <img src="images/vsalogo.png" alt="vsalogo">
+            <img class="logo" src="images/vsalogo.png" alt="vsalogo">
         </section>
 
-        <section>
+        <section class="secundaria">
             <h2>VEJA O QUE A GALERA ESTÁ COMENTANDO</h2>
             <p>Confira o que a galera que contratou nossos serviços estão falando por aí. Não perca tempo e seja o próximo !!</p>
-            <img src="" alt="">
+            <img class="feedback" src="images/feedbacks.png" alt="feedback">
         </section>
 
-        <section>
-            <h2>PERGUNTAS FREQUENTES</h2>
+        <section class="terciaria">
+            <h2 id="perguntas">PERGUNTAS FREQUENTES</h2>
 
-            <button>SAIBA MAIS</button>
+            <button id="btn2">SAIBA MAIS</button>
         </section>
 
         <footer class="footer">
-            <img src="images/footerimg.png" alt="footer ">
+            <img id="img3" src="images/footerimg.png" alt="footer ">
         </footer>
     </main>
+    
 </body>
 </html>
