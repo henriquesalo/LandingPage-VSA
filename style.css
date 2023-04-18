@@ -7,37 +7,61 @@
 
 .container {
     position: relative;
+    display: flex;
+    justify-content: left;
 }
 
 /* tamanho da imagem: 1350x640 */
 .headerimg {
+    filter: brightness(55%);
     display: flex;
-    height: 640px;
+    height: 660px;
     width: 1350px;
 }
 
 #texto {
     position: absolute;
-    font-weight: bold;
-    margin-left: 5%;
-    top: 165px;
+}
+
+.titulo {
+    width: 300px;
+    height: 100px;
+    margin-top: 20%;
+    margin-left: 27%;
 }
 
 .paragrafo {
-    color: white;
+    width: 400px;
+    height: 50px;
+    margin-top: 3%;
+    margin-left: 20%;
 }
 
 /* tamanho do botao: 522x63*/
 .saibamais {
+    position: absolute;
     background-color: #A08050;
     color: white;
-    border-style: outset;
     border-color: #A08050;
     height: 50px;
     width: 380px;
     text-shadow: none;
     font-weight: bold;
-    margin-top: 2%;
+    margin-top: 25%;
+    margin-left: 11%;
+}
+
+.oferece {
+    position: absolute;
+    margin-left: 39%;
+    margin-top: 46.5%;
+}
+.quadrado {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: -2%;
+
 }
 
 .info {
@@ -85,12 +109,41 @@
     margin-top: 2%;
 }
 
-.footer {
+#btn2 {
+    background-color: #A08050;
+    color: white;
+    border-style: hidden;
+    border-color: #A08050;
+    height: 45px;
+    width: 150px;
+    border-radius: 2%;
+    text-shadow: none;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.container2 {
+    display: flex;
     justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
 /*tamanho da imagem do footer: 1350x460 */
-#img3 {
+.img3 {
+    display: flex;
+    height: 640px;
+    width: 1350px;
+}
+
+.logo2 {
     position: absolute;
+    top: 70%;
+    height: 120px;
+    width: 170px;
+}
+
+.direitos {
+    position: absolute;
+    top: 90%;
 }
