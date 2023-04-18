@@ -1,1 +1,1 @@
-# LandingPage Criada para Corretora de Seguro VSA
+# LandingPage para Corretora de Seguro VSA
