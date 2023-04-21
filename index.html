@@ -1,96 +1,298 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
-    <title>VSA</title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon" />
+    <title>E-pizza</title>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <img class= "headerimg" src="images/img1.jpeg" alt="headerimg">
-            
-            <div id="texto">
-                <img class="titulo" src="images/Bem-vindo à VSA Corretora.png" alt="bemvindo">
-                <img class="paragrafo" src="images/Nós somos uma corretora de seguros comprometida em oferecer aos nossos clientes a melhor proteção possível para seus bens..png" alt="paragrafo">
-            </div>
-            <button class="saibamais">SAIBA MAIS</button>
-            <img class="oferece" src="images/O QUE A VSA OFERECE.png" alt="oferece" height="16" width="310">
+      <nav>
+        <img src="assets/img/logo e-pizzaa.png" id="logo" alt="LOGO" />
+        <img src="assets\img\menu.svg" id="menu" alt="menu" />
+        <ul class="desktop">
+          <li><a href="">Home</a></li>
+          <li><a href="">Cardapio</a></li>
+          <li><a href="">Nosso Espaço</a></li>
+          <li><a href="">Nossa casa</a></li>
+          <li><a href="">Contato</a></li>
+          <li><a href="">Localização</a></li>
+        </ul>
+      </nav>
+      <div class="background">
+        <div class="menu-active">
+          <img src="assets\img\close.svg" id="close" alt="close" />
+          <ul class="mobile">
+            <li><a href="">Home</a></li>
+            <li><a href="">Cardapio</a></li>
+            <li><a href="">Nosso Espaço</a></li>
+            <li><a href="">Nossa casa</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Localização</a></li>
+          </ul>
         </div>
-
-        <div class="quadrado">
-            <img src="images/Rectangle 1.png" alt="quadrado">
-        </div>
+      </div>
     </header>
-
     <main>
-        <section class="principal">
-            <p>Oferecemos um serviço de qualidade superior com um grande diferencial: cobrimos 100% do 
-                valor da tabela Fipe em caso de perda total do veículo. Isso significa que você pode ter a 
-                tranquilidade de saber que está protegido em caso de sinistro.</p>
-
-            <h5>Além disso, nossas opções de cobertura incluem:</h5>
-            
-            <div class="cards">
-                <article>
-                    <p>Cobertura total 
-                        para colisão, 
-                        incêndio e roubo
-
-
-    
-                        Responsabilidade 
-                        civil obrigatória</p>
-                </article>
-                <article>
-                    <p>Na VSA Corretora, estamos 
-                        comprometidos em oferecer soluções de 
-                        seguros sob medida para atender às suas 
-                        necessidades. Nossos planos de seguro 
-                        são personalizados às suas necessidades 
-                        exclusivas e orçamento!</p>
-                </article>
-                <article>
-                    <p>Proteção contra 
-                        danos pessoais 
-
-
-
-                        Assistência 24 
-                        horas em caso de 
-                        emergência</p>
-                </article>
-            </div>
-
-            <img class="img2" src="images/carro.jpeg" alt="imgcar">
-            <h5>Não arrisque a segurança do seu veículo. Entre em contato conosco hoje mesmo para 
-                proteger seu investimento com a VSA Corretora.</h5>
-            <img class="logo" src="images/vsalogo.png" alt="vsalogo">
-        </section>
-
-        <section class="secundaria">
-            <h2>VEJA O QUE A GALERA ESTÁ COMENTANDO</h2>
-            <p>Confira o que a galera que contratou nossos serviços estão falando por aí. Não perca tempo e seja o próximo !!</p>
-            <img class="feedback" src="images/feedbacks.png" alt="feedback">
-        </section>
-
-        <section class="terciaria">
-            <h2 id="perguntas">PERGUNTAS FREQUENTES</h2>
-
-            <button id="btn2">SAIBA MAIS</button>
-        </section>
-
-        <footer class="footer">
-            <div class="container2">
-                <img class="img3" src="images/carro-no-parque-de-estacionamento 1.png" alt="footer ">
-                <img class="logo2" src="images/vsalogo.png" alt="vsalogo2">
-                <img class="direitos" src="images/Todos direitos reservados à VSA CORRETORA DE SEGUROS. Social_ VSA CORRETORA DE SEGUROS LTDA.png" alt="direitos">
-            </div>
-        </footer>
+      <section id="home">
+        <h1>
+          SABOR DO <br />
+          BRASIL
+        </h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <a href="saibamais.html">CONHEÇA MAIS</a>
+      </section>
+      <section id="promo">
+        <h1>Preencha abaixo para receber nossas promoções</h1>
+        <form action="">
+          <input type="text" placeholder="Insira seu nome" />
+          <input type="text" placeholder="Insira seu melhor email" />
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+      <section id="cardapio">
+        <h1>Hmmmmm... <br />Que<span> delicía</span></h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galleyLorem Ipsum is
+          simply dummy text of the printing and typesetting industry. Lorem
+          Ipsum has been the industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley
+        </p>
+        <a href="">CONHEÇA MAIS</a>
+      </section>
+      <section id="nosso_espaco">
+        <div class="texto-nosso-espaco">
+          <h1>CONHEÇA NOSSO ESPAÇO REQUINTADO</h1>
+          <a href="">CONHEÇA MAIS</a>
+        </div>
+        <div class="video-nosso-espaco">
+          <video
+            src="https://www.youtube.com/watch?v=V2cbKsPnFis"
+            alt="Video de apresentação"
+          ></video>
+        </div>
+      </section>
+      <section id="nossa_casa">
+        <h1>Nossa Casa</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+        </p>
+        <div>
+          <img src="assets\img\img-nossa-casa-1.png" alt="Imagem ilustrativa" />
+          <img src="assets\img\img-nossa-casa-3.png" alt="Imagem ilustrativa" />
+          <img src="assets\img\img-nossa-casa-2.png" alt="Imagem ilustrativa" />
+          <img src="assets\img\img-nossa-casa-4.png" alt="Imagem ilustrativa" />
+          <img src="assets\img\img-nossa-casa-5.png" alt="Imagem ilustrativa" />
+          <img src="assets\img\img-nossa-casa-6.png" alt="Imagem ilustrativa" />
+        </div>
+      </section>
+      <section id="contato">
+        <h1>CONTATE-NOS</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley
+        </p>
+        <div class="contatos">
+          <div class="endereco">
+            <img src="assets\img\localization.svg" alt="icon endereço" />
+            <h3>Endereço</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+            </p>
+          </div>
+          <div class="telefone">
+            <img src="assets\img\phone.svg" alt="icon telefone" />
+            <h3>Telefone</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+            </p>
+          </div>
+          <div class="email">
+            <img src="assets\img\mail.svg" alt="icon email" />
+            <h3>Email</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="localizacao">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.8381009589357!2d-48.03271808847092!3d-15.865104224638452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2d97a15b0507%3A0x3c3e4472ee75d834!2sUniversidade%20Cat%C3%B3lica%20de%20Bras%C3%ADlia%20-%20C%C3%A2mpus%20Taguatinga!5e0!3m2!1spt-BR!2sbr!4v1681323757995!5m2!1spt-BR!2sbr"
+          width="800"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
     </main>
-    
-</body>
+    <footer>
+      <p>@2023. Todos os direitos reservados</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+  </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon" />
+    <title>E-pizza</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="assets/img/logo e-pizzaa.png" id="logo" alt="LOGO" />
+        <img src="assets\img\menu.svg" id="menu" alt="menu" />
+        <ul class="desktop">
+          <li><a href="">Home</a></li>
+          <li><a href="/catalogo.html">Cardapio</a></li>
+          <li><a href="">Nosso Espaço</a></li>
+          <li><a href="">Nossa casa</a></li>
+          <li><a href="">Contato</a></li>
+          <li><a href="">Localização</a></li>
+        </ul>
+      </nav>
+      <div class="background">
+        <div class="menu-active">
+          <img src="assets\img\close.svg" id="close" alt="close" />
+          <ul class="mobile">
+            <li><a href="">Home</a></li>
+            <li><a href="/catalogo.html">Cardapio</a></li>
+            <li><a href="">Nosso Espaço</a></li>
+            <li><a href="">Nossa casa</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Localização</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="home">
+        <h1>
+          SABOR DO <br />
+          BRASIL
+        </h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <a href="saibamais.html">CONHEÇA MAIS</a>
+      </section>
+      <section id="promo">
+        <h1>Preencha abaixo para receber nossas promoções</h1>
+        <form action="">
+          <input type="text" placeholder="Insira seu nome" />
+          <input type="text" placeholder="Insira seu melhor email" />
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+      <section id="cardapio">
+        <h1>Hmmmmm... <br />Que<span> delicía</span></h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galleyLorem Ipsum is
+          simply dummy text of the printing and typesetting industry. Lorem
+          Ipsum has been the industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley
+        </p>
+        <a href="">CONHEÇA MAIS</a>
+      </section>
+      <section id="nosso_espaco">
+        <div class="texto-nosso-espaco">
+          <h1>CONHEÇA NOSSO ESPAÇO REQUINTADO</h1>
+          <a href="">CONHEÇA MAIS</a>
+        </div>
+        <div class="video-nosso-espaco">
+          <video
+            src="https://www.youtube.com/watch?v=V2cbKsPnFis"
+            alt="Video de apresentação"
+          ></video>
+        </div>
+      </section>
+      <section id="nossa_casa">
+        <h1>Nossa Casa</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+        </p>
+        <div>
+          <img src="assets\img\img-nossa-casa-1.png" alt="Imagem ilustrativa" />
+          <img src="assets\img\img-nossa-casa-3.png" alt="Imagem ilustrativa" />
+          <img src="assets\img\img-nossa-casa-2.png" alt="Imagem ilustrativa" />
+          <img src="assets\img\img-nossa-casa-4.png" alt="Imagem ilustrativa" />
+          <img src="assets\img\img-nossa-casa-5.png" alt="Imagem ilustrativa" />
+          <img src="assets\img\img-nossa-casa-6.png" alt="Imagem ilustrativa" />
+        </div>
+      </section>
+      <section id="contato">
+        <h1>CONTATE-NOS</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley
+        </p>
+        <div class="contatos">
+          <div class="endereco">
+            <img src="assets\img\localization.svg" alt="icon endereço" />
+            <h3>Endereço</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+            </p>
+          </div>
+          <div class="telefone">
+            <img src="assets\img\phone.svg" alt="icon telefone" />
+            <h3>Telefone</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+            </p>
+          </div>
+          <div class="email">
+            <img src="assets\img\mail.svg" alt="icon email" />
+            <h3>Email</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="localizacao">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.8381009589357!2d-48.03271808847092!3d-15.865104224638452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2d97a15b0507%3A0x3c3e4472ee75d834!2sUniversidade%20Cat%C3%B3lica%20de%20Bras%C3%ADlia%20-%20C%C3%A2mpus%20Taguatinga!5e0!3m2!1spt-BR!2sbr!4v1681323757995!5m2!1spt-BR!2sbr"
+          width="800"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+    <footer>
+      <p>@2023. Todos os direitos reservados</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
+>>>>>>> 1646d27 (att)

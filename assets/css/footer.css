@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+footer{
+    background-color: var(--cor4);
+    color: var(--cor6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+=======
+footer{
+    background-color: var(--cor4);
+    color: var(--cor6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+>>>>>>> 1646d27 (att)
