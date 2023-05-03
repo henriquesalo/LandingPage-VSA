@@ -223,15 +223,13 @@ h1{
     font-size: 18px;
     margin-bottom: 20px;
 }
-.footer{
-    padding: 150px;
+.container-footer{
+    align-items: center;
+    max-width: 1300px;
+  
 }
-.logo-footer{
-    max-width: 30%;
-    display: block;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto
+.footer{
+    padding: 500px;
 }
 .whatsapp-icon{
     max-width: 6%;
@@ -482,16 +480,10 @@ h1{
         font-size: 18px;
         margin-bottom: 20px;
     }
-    .footer{
-        padding: 150px;
+    .container-footer{
+        padding: 50px
     }
-    .logo-footer{
-        max-width: 30%;
-        display: block;
-        padding: 20px;
-        margin-left: auto;
-        margin-right: auto
-    }
+
     .whatsapp-icon{
         max-width: 50px;
         position: fixed;
