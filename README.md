@@ -10,6 +10,5 @@
   - HTML
   - CSS 
   - GIT E GITHUB 
-  - JAVASCRIPT
-
+  
 ##
